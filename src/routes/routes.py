@@ -1,2 +1,5 @@
+from src.routes.login_routes import Login_routes
+
 def Routes(api):
-    print('Algo')
+    # rutas para login
+    Login_routes(api)
